@@ -18,14 +18,13 @@ int main()
         scanf("%d", &n[i]);
 		{
             sum=sum+n[i];
-            n[i]/=10;
         }
     }
     temp=sum;
-    while (temp!=0)
+    while(temp!=0)
 	{
         rev=rev*10+temp%10;
-        temp/=10;
+        temp=temp/10;
     }
     if(sum==rev)
 	{
