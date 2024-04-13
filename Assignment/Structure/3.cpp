@@ -2,15 +2,20 @@
 struct time_struct 
 {
     int hour;
-    int min;
-    int sec;
+    int minute;
+    int second;
 };
-
-int main() 
+int main()
 {
-    struct time_struct time;
-    printf("Enter time in second ")
+    int totalSeconds;
+    printf("Enter the total seconds: ");
+    scanf("%d", &totalSeconds);
 
+    int hour = totalSeconds / 3600;
+    int minute = (totalSeconds % 3600) / 60;
+    int second = (totalSeconds % 3600) % 60;
+
+    printf("Time: %02d:%02d:%02d\n", hour, minute, second);
     return 0;
 }
 
