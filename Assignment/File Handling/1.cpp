@@ -49,7 +49,7 @@ int main()
 	{
         fscanf(file, "%d %s %f",&emp[i].id,&emp[i].name,&emp[i].salary);//scans the details from the file
         if (emp[i].salary>max_salary)
-		{
+	{
             max_salary=emp[i].salary;
             max_id=emp[i].id;
         }
