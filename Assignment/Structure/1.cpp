@@ -33,10 +33,10 @@
 			h=(a[i].marks);
 		}
 	}
-	printf("\nThe Highest Salary is :%d",h);
+	printf("\nThe Highest Marks is :%d",h);
 	for(i=0;i<5;i++)
 	{
-		if(h==a[i].marks)//highest salary josko salary sita match hunxa tesko detail matra linxa
+		if(h==a[i].marks)//highest marks josko marks sita match hunxa tesko detail matra linxa
 		{
 			printf("\nName:");
 			puts(a[i].name);
