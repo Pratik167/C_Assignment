@@ -19,12 +19,16 @@ int main()
 		gets(record[i].emp_name);
 		printf("\n Enter salary:");
 		scanf("%d",&record[i].emp_salary);
+		printf("\n");
 	}
 	for(i=0;i<3;i++)
 	{
 		if(record[i].emp_name[i]=="d"||"D")
 		{
-			printf("this");
+			printf("Employee ID: %d\n", record[i].emp_id);
+           		printf("Employee Name: %s\n", record[i].emp_name);
+            		printf("Employee Salary: %.2f\n", record[i].emp_Salary);
+            		printf("\n");
 		}
 	}
 	return 0;
