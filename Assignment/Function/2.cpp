@@ -9,7 +9,7 @@ int main()
 	scanf("%d",&b);
 	result=swap(&a,&b);
 	{
-		printf("Swapping......................\n");
+		printf("Swapping\n");
 		printf("a=%d\nb=%d",a,b);
 	}
 	return 0;
