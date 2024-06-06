@@ -12,7 +12,7 @@ int main()
 {
     struct student_record a[5];
     int i=0;
-    int pass[3]={0};//fixed via chatgpt
+    int pass[3]={0};
     for (i=0;i<5;i++) 
 	{
         printf("Enter Your Name: ");
